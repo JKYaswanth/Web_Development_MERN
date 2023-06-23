@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day_8</title>
+</head>
+<body>
+    <!-- Form : to create HTML forms for web input -->
+    <!-- input : many forms of inputs such as text field,radio buttons-->
+    <!-- label:  description of input....Screen Readers-->
+    <!-- Every 'label' tag's 'for' attribute is same as the 'id' attribute of 'input' tag -->
+    <!-- It is done for mapping purposes -->
+
+    <form>
+        <fieldset>
+            <legend>HTML Pratice Form</legend>
+            <br>
+            <label for="email">Enter Email ID </label>
+        <input type="text" id="email" placeholder="Enter Email">
+        <br>
+        <!-- The faded text in the text field is added using placeholder -->
+        <br>
+        <label for="pass">Enter PassWord </label>
+        <input type="password" id="pass" placeholder="Enter Password">
+        <!-- password type is used here -->
+        
+        <!-- Button can be created either using 'input' or 'button' tag -->
+        <!-- Use radio,checkbox in type of input to change it from text field to the desired field -->
+        <!-- For date selector change type to 'date' -->
+        <!-- type="submit" : To submit the data to the Server or the 'action' attribute of form is set to submit -->
+        <!-- Text area : multi line input..like a paragrapgh-->
+        <!-- Select : Creates a dropdown menu -->
+        <!-- Fielset : Group many attributes together for easy captioning -->
+        <!-- Legend : Used for captioning a Fieldset -->
+        <br>
+        <br>
+        <label for="datepicker">Choose Date</label>
+        <input type="date" name="" id="datepicker">
+        <br>
+        <br>
+        <label for="gender">Choose ur Gender</label>
+        <!-- Single Selection drop-down menu -->
+        <select name="Gender" id="gender">
+            <option value="blank"></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <br>
+        <br>
+        <label for="food">Choose Food Type</label>
+        <!-- multiple selection drop-down menu.....Selection using ctrl -->
+        <select name="food" id="food" multiple>
+            <option value="blank"></option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+            <option value="Vegan">Vegan</option>
+            <option value="Omni">Omni</option>
+        </select>
+        <br>
+        <br>
+        <label for="textarea">Enter ur Address</label>
+        <textarea name="textarea" id="textarea" cols="60" rows="5" placeholder="Address"></textarea>
+
+        <br>
+        <br>
+        <fieldset>
+            <legend>Year</legend>
+        <p>Select Your <strong>Year</strong> :-</p>
+        <div>
+        <input type="radio" name="year" id="i_year">
+        <label for="i_year">First</label><br>
+    </div>
+    <div>
+        <input type="radio" name="year" id="ii_year">
+        <label for="ii_year">Second</label><br>
+    </div>
+    <div>
+        <input type="radio" name="year" id="iii_year">
+        <label for="iii_year">Third</label><br>
+    </div>
+    <div>
+        <input type="radio" name="year" id="iv_year">
+        <label for="iv_year">Fourth</label><br>
+    </div>
+    <!-- If all the radio names are same,then only one of them could be selected a time -->
+        </fieldset>
+        <br>
+        <br>
+        <p><b>Preffered Language</b> :-</p>
+        <input type="checkbox" name="English" id="english">
+        <label for="english">English</label>
+        <input type="checkbox" name="Hindi" id="hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" name="Malayalam" id="malayalam">
+        <label for="english">Malayalam</label>
+        <br>
+        <br>
+        <label for="fileselect">Upload Photo</label>
+        <input type="file" name="fileselect" id="fileselect">
+        <br>
+        <br>
+        <!-- Given Below submit button has no img in it -->
+        <!--<input type="submit" value="Confirm">  -->
+        <!-- Submit with a image -->
+        <input type="image" name="green_tick" id="green_tick" alt="Submit" src="green_tick.avif" width="50" height="50">
+        <!-- Given Below is the Normal Reset approach using input -->
+        <!-- <input type="reset" name="reset" id="reset"> -->
+        <!-- Reset using button attribute with img -->
+        <button type="reset"><img src="red_tick.webp" alt="Reset" width="50" height="50"></button>
+
+        <!-- reset type changes all values to default -->
+        
+        </fieldset>
+        <!-- fieldset makes a boundary -->
+        <!-- legend gives Caption{heading} to the fieldset box -->
+        
+        
+    </form>
+</body>
+</html>
