@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_2</title>
+</head>
+<body>
+     <h1>Job Application</h1>
+     <label for="name">Name : </label>
+     <br>
+     <input type="text" name="name" id="name">
+     <br>
+     <label for="email">Email : </label>
+     <br>
+     <input type="email" name="email" id="email">
+     <!-- type 'email' is used  -->
+     <br>
+     <label for="phone">Phone : </label>
+     <br>
+     <input type="tel" name="phone" id="phone" pattern="[0-9]{5}-[0-9]{5}" required>
+     <br>
+     <label for="resume">Resume : </label>
+     <br>
+     <input type="file" name="resume" id="resume">
+     <br>
+     <label for="exp">Experience (Years) : </label>
+     <br>
+     <input type="number" name="exp" id="exp" min="0" max="50">
+    <br>
+     <fieldset>
+        <legend>Skills</legend>
+
+        <input type="checkbox" name="html" id="html">
+        <br>
+        <label for="html">HTML</label>
+        <br>
+
+        <input type="checkbox" name="css" id="css">
+        <br>
+        <label for="css">CSS</label>
+        <br>
+
+        <input type="checkbox" name="jp" id="jp">
+        <br>
+        <label for="jp">JavaScript</label>
+        <br>
+
+     </fieldset>
+
+     <label for="high">Higher Education :</label>
+     <br>
+     <select name="high" id="high">
+        <option value="high_school">High School</option>
+        <option value="ass_deg">Associate's Degree</option>
+        <option value="ba_deg">Bachelor's Degree</option>
+        <option value="ma_deg">Master's Degree</option>
+        <option value="phd">PhD</option>
+     </select>
+     <br>
+     <br>
+     <p>Availability : </p>
+     <input type="radio" name="avail" id="avail_1">
+     <br>
+     <label for="avail_1">Part Time</label>
+     <br>
+
+     <input type="radio" name="avail" id="avail_2">
+     <br>
+     <label for="avail_2">Full Time</label>
+     <br>
+
+     <label for="add">Additional Comments : </label>
+     <br>
+     <textarea name="add" id="add" cols="30" rows="10"></textarea>
+     <input type="submit" value="Submit Application">
+</body>
+</html>
