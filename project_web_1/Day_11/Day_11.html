@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day_11</title>
+</head>
+<body>
+    <!-- <img src="eren.jpg" alt="Eren Jaeger - The Founding Titan" height="200"> -->
+    <img src="eren.jpg" alt="Eren Jaeger - The Founding Titan" height="200" loading="lazy">
+    <!-- Due to increased size of the images and other assets during the current internet times.
+    The rendering speed of the websites may decrease due to the heavy assets. -->
+    <!-- Problem :- By shortening the critcal loading path length of web resources. -->
+    <!-- Solution :- Lazy loading is used to overcome this problem.
+    It loades the the critical assests first and later the others.
+    lazy : defers from loading the resorces until the conditions are met...{like downloading an image until the website is loaded.}
+    eager : default - Immediately loads the asset.-->
+    <!-- Increases website efficiency. -->
+    <audio src="ending.mp3" controls></audio>
+    <video src="attack on titan_gojo_edit.mp4" controls height="500"></video>
+    <!-- If video and audio are added to page, the controls on the content will not be reflected.
+    Hence controls is attributed. -->
+    <!-- Another Method :- -->
+    <!-- <audio controls>
+            <source src="Source_Path" rtype=audio/mp3>
+    </audio> -->
+    <br>
+    <iframe src="https://www.youtube.com/embed/ZefrVAetxVI" frameborder="0" height="600" width="600"></iframe>
+    <br>
+    <iframe src="../Day_10/resume.html"  height="800" width="600"></iframe>
+    <!-- Maps API was added free using src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" -->
+    <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" width="800" height="800"></iframe>
+    <!-- Embed a YouTube -->
+    <!-- <iframe src="https://www.youtube.com/watch?v=fb4rgYbi84c&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=11" frameborder="0" width="600" height="600"></iframe> -->
+    <!-- The code written above will not work. -->
+    <!-- Some changes in the URL has to be made to make it functionable -->
+    <!-- 1.Change the watch after the .com to embed -->
+    <!-- 2.Change the next ? to / -->
+    <!-- 3.Delete the v -->
+    <br>
+    
+</body>
+</html>
