@@ -1,0 +1,21 @@
+/* Steps to add an external CSS file */
+/* 1. Create an external css */
+/* 2. Link it to the HTML file */
+h1{
+    font-size: larger;
+    text-align: center;
+}
+
+p{
+    color: tomato;
+}
+
+/* Without any important : inline CSS will always dominate */
+/* If no inline CSS, then the order of the external CSS link and inline CSS will decide the outputm of the CSS */
+/* The later one will make the final changes */
+
+/* Selectors in CSS */
+/* 1.Element */
+/* 2.ID */
+/* 3.Class */
+/* 4.Group */

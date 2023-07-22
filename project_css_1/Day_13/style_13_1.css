@@ -1,0 +1,21 @@
+/* Element Selector */
+p{
+    color: red;
+}
+/* ID Selector */
+#ar_1{
+    background-color: green;
+}
+/* Class Selector */
+.para_class{
+    color: blue;
+    background-color: yellow;
+}
+/* Group Selector */
+p,article{
+    width: 750px;
+}
+
+p.para_class,#ar_1{
+    text-align: center;
+}
