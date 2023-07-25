@@ -1,0 +1,43 @@
+h1{
+    background-color: rgb(173, 243, 226);
+    /* The method given below is the discrete  */
+    
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: brown; */
+
+    /* Assign all at once :- Short Hand Notation */
+    
+    border:solid brown 5px ;
+    /* To curve the all edges of the border */
+    border-radius: 8px;
+
+}
+
+#p2{
+    background-color: antiquewhite;
+    
+    border:double rgb(32, 235, 69) 3px ;
+
+    /* to curve only one vertice */
+    border-top-left-radius: 5px;
+
+}
+
+#ar_2{
+    background-color: aquamarine;
+    /* Border to be only generated at a specific edge */
+    border-bottom: solid grey 3px;
+}
+
+#p3{
+    background-color: beige;
+}
+
+#p4{
+    background-color: rgb(247, 196, 129);
+}
+
+#p1{
+    background-color: chocolate;
+}

@@ -1,0 +1,134 @@
+/* Universal Selectors are used to assign a default set values to every tag being specified in the file */
+/* Ideal way in CSS :- set padding and margin to 0 */
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+
+h1{
+
+    background-color: rgb(173, 243, 226);
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+    /* height: 55px; */
+    padding: 25px;
+    margin: 25px;
+    
+}
+
+#sp{
+    background-color: rgb(173, 243, 226);
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+    height: 55px;
+    /* The width and height will not be applied in the span*/
+    /* Since span is inline it's height and width will depend on the content of the tag. */
+    /* Hence span or any other inline elements will ignore the height and weight CSS elements. */
+}
+
+#p2{
+
+    background-color: antiquewhite;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+    /* height: 35px;
+    text-align: center; */
+    padding: 15px;
+}
+
+#ar_2{
+
+    background-color: aquamarine;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+    /* text-align: center; */
+
+    /* All side will get an equal padding */
+    /* padding: 50px; */
+
+    /* Individual Padding */
+    /* padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px; */
+
+    /* Short hand padding */
+    /* padding: 5px 15px 25px 35px; */
+
+    /* top/bottom and sides */
+    padding: 20px 40px;
+}
+
+#p3{
+
+    background-color: beige;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+    /* text-align: center; */
+
+    /* All side equal margin */
+    /* margin: 30px; */
+
+    /* Individual Margins */
+    /* margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-right: 30 px; */
+
+    /* Short hand margin */
+    /* margin: 8px 18px 28px 38px; */
+
+    /* top/bottom and sides */
+    margin: 15px 30px;
+}
+
+#p4{
+
+    background-color: rgb(247, 196, 129);
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+
+}
+
+#p1{
+
+    background-color: chocolate;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 330px;
+
+}
+
+/* 
+
+CSS Box Model
+:- Every thing which is being rendered in the website is always rendered in Box or Rectangular format.
+
+:- Contents of this model :-
+    
+    1. Content.
+    2. Padding.
+    3. Border.
+    4. Margin.
+
+Padding :- Invisible gap between Content and Border.
+
+Margin :- Gap between individual boxes.
+*/
+
+/* Box Sizing and why it is considered it a good practice to make it border box */
+
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+    width + padding + border = actual width of an element
+    height + padding + border = actual height of an element
+ */
+
+ 
