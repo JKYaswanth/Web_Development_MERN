@@ -1,0 +1,72 @@
+p{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+article{
+    font-size: 20px;
+    /* pixel is 1/96 of an inch */
+    line-height: 50px;
+    /* font-family: monospace; */
+}
+
+#ar_1{
+    font-family: fantasy !important;
+
+}
+
+#p1{
+    font-weight: 900 !important;
+    color: hsl(210, 95%, 8%);
+    background-color: hsla(236, 60%, 10%, 0.197);
+}
+
+#p2{
+    font-style: normal !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    background-color: antiquewhite;
+    color: brown;
+}
+
+#ar_2{
+    font-family: 'Lugrasimo', cursive !important;
+    color:wheat;
+    background-color: rgb(55, 89, 68);
+}
+
+#p3{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    color: rgb(222, 211, 199);
+    background-color: rgba(13, 7, 7, 0.631);
+}
+
+#p4{
+    background-color: #e829fd81;
+}
+
+
+/* New CSS font properties
+1. font size
+2. font family
+3. font style
+4. font weight
+5. line height
+ */
+
+/* font family usually uses a fall back system in which multiple font family are declared at a time to use in whichever font which is first available */
+/* Universal browser fonts :- Browser safe fonts */
+/* For External fonts */
+/* 1. Go to Google fonts and select your required font */
+/* 2. Copy the linking tag and link it to the HTML head */
+/* 3. Copy the font family and paste it in the selector */
+
+/* Ways to add Colour
+1. Named Colors
+2. RGB values
+    2.1 RGBA Values :- alpha value determines the transparency of the colour
+3. Hexadecimal values
+4. HSL color : Hue Saturation Lightness and HSLA which contains the the alpha value for transparency*/
+    
