@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day_16</title>
+    <link rel="stylesheet" href="style_16.css">
+</head>
+<body>
+    <!-- Display property : Logic which decides how the corresponding tag is to be rendered in the website -->
+    <!-- Block Element :- div,p,h1 
+Properties :-
+    1.Always start on a new line.
+    2.Width :- Extreme left to Extreme right.
+    3.Custom height and width could be set.
+    4.Custom Margins and Padding could also be set.-->
+<!-- 10 Block Elements :- <address>,<article>,<aside>,<blockquote>,<canvas>,<dd>,<div>,<dl>,<dt>,<fieldset> -->
+    <!-- here no box sizing border box is used.
+         hence CSS addition will tend to change the size the box. -->
+    <div class="box_1">Welcome to my WebSite</div>
+    <br>
+    <!-- Here box sizing border box is used. -->
+    <!-- Hence the size of the box will remain same as of the specified width and height. -->
+    <!-- But content will shrink to compensate that. -->
+    <div class="box_2">This is the part of my Learning process.</div>
+
+    <!-- Properties of Inline Element :-
+        1. Always try to comeup in the same line, otherwise move to the next
+        2. Width :-  Same as the content
+        3. No Custom width or height could be mentioned
+        3. Margin/Padding :- Horizontal margin is allowed, custom padding is allowed. -->
+    <span>The name is JK Yaswanth</span>
+    <span>The name is JK Yaswanth 2.0</span>
+    <!-- Overlapping is caused by the padding of the inline element -->
+    <!-- <br>
+    <br>
+    <br> -->
+    <!-- Conversion of inline element to block element by changing CSS display attribute to block-->
+    <span class="sp">The name is JK Yaswanth</span>
+    <span class="sp">The name is JK Yaswanth 2.0</span>
+</body>
+</html>
