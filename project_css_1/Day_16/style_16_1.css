@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+span{
+    border: brown solid 3px;
+    margin: 30px;
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.sp_2{
+    /* Custom width and height could be added */
+    /* Margin could be also implemented in 4 directions */
+    /* But still it remains a inline block */
+    display: inline-block;
+}
