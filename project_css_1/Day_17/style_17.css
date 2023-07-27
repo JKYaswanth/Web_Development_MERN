@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    height: 500px;
+    /* width: 500px; */
+    margin: 20px;
+}
+.container{
+    border: green solid 5px;
+    background-color: antiquewhite;
+    margin: 20px;
+    height: 1600px;
+    position: relative;
+}
+/* Default positioning of the image is static. */
+/* On static images top, left , bottom properties cannot be applied */
+
+.jjk_s2{
+    /* relative positioning is done with respect to the current window, in accords to which four properties are assigned. */
+    /* relative to the current window */
+    /* position: relative; */
+    top: 100px;
+    /* left: 100px; */
+    right: 100px;
+}
+
+.ch_1{
+    /* Whenever overlapping is required absolute positioning is used */
+    /* relative to closest previous ancestor */
+    /* The previous ancestor is often marked as relative */
+    /* position:absolute;
+    top: 200px; */
+}
+
+.aot_s1{
+    position: fixed;
+}
+
+.jjk_s1{
+    /* Bland sticky not working */
+    position: sticky;
+    /* top should be specified to position the sticky element */
+    top: 0px;
+
+}
+
+.container_2{
+    background-color: black;
+    /* position: sticky; */
+    height: 1000px;
+    border: solid red 5px;
+    margin-top: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+/* Diffrence between fixed and stickty positioning */
+/* Fixed postion scrolls on the entire website unlike sticky which only scrolls to the end of it's mother container  */
+/* Sticky acts like Fixed in it's defined container {here <div>} */
