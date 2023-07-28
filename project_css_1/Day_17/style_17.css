@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 img{
@@ -37,6 +38,8 @@ img{
 
 .aot_s1{
     position: fixed;
+    /* the positioned elements to render the element in its own layer, improving repaint speed and therefore improving performance and accessibility. */
+    will-change: transform;
 }
 
 .jjk_s1{
