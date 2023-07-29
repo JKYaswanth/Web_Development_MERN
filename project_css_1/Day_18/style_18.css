@@ -1,4 +1,78 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* box-sizing: border-box; */
 }
+/* Examples for the %  */
+/* The percentage is relative to the viewport. */
+.pre_1{
+    border: red solid 2px;
+    /* width: 100%; */
+}
+
+.pre_2{
+    border: blue solid 2px;
+    width: 75%;
+}
+
+.pre_3{
+    border: green solid 2px;
+    width: 50%;
+}
+
+.pre_4{
+    border: pink solid 2px;
+    width: 25%;
+}
+
+.parent{
+    /* text-align: right; */
+    border: red solid 2px;
+    background-color: antiquewhite;
+    width: 75%;
+    display: inline-block;
+}
+
+.child{
+    /* text-align: left; */
+    border: green solid 2px;
+    background-color: coral;
+    width: 25%;
+    display: inline-block;
+}
+
+/* CSS for em for fonts */
+/* .par_rel_1{
+    font-size: 50px;
+}
+
+.ch_rel_1{
+    font-size: 2em;
+} */
+
+/* CSS for em for padding */
+/* em is depended on the font size not on the relative padding, if custom padding not used then it
+take the default value for the pixel :- 16px */
+
+/* .par_rel_1{
+    padding: 10px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.ch_rel_1{
+    padding: 10em;
+    background-color: aquamarine;
+
+} */
+
+/* rem CSS */
+
+.par_rel_1{
+    font-size: 50px;
+}
+
+.ch_rel_1{
+    font-size: 5rem;
+}
+
+
