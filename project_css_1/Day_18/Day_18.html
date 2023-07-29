@@ -7,6 +7,100 @@
     <link rel="stylesheet" href="style_18.css">
 </head>
 <body>
+    <!-- The given examples have body as their immediate predecessor -->
+    <!-- <div class="pre_1">
+        Divison width : 100%
+    </div>
+    <div class="pre_2">
+        Division width : 75%
+    </div>
+    <div class="pre_3">
+        Divison width : 50%
+    </div>
+    <div class="pre_4">
+        Divison width : 25%
+    </div>
+    >
+    <br>
+    <br> -->
+    <!-- Here the parent only has body as the immediate predecesseor -->
+    <!-- But for the child, parent is the one -->
+    <!-- The width percentage of the child is relative to the parent -->
+
+    <!-- <div class="parent">
+        
+        <div class="child">
+            Child : 25% wrt Parent
+        </div>
+        Parent : 75%
+    </div> -->
+
+    <!-- Viewport :- Is the current window being presented -->
+    <!-- vh :- view-port height -->
+    <!-- vw :- view-port width -->
+
+    <!-- HomeWork_1 :- Diffrence between physical and logical pixels -->
+    <!-- Answer :- -->
+
+    <!-- Physical Pixel :- It is the actual hardware of the system, where each pixel is around 1/96th of an inch -->
+    <!-- Logical Pixel :- It is just information which tells the colour value at some location on the grid -->
+
+    <!-- HomeWork_2 :- What are ppi and dpi -->
+    <!-- Answer :-  -->
+
+    <!-- PPI :-  Pixels per inch (PPI) refers to the number of pixels contained within each inch of a digital image.-->
+    <!-- DPI :- -DPI stands for Dots per Inch, referring to the number of ink droplets a printer will produce per inch while printing an image. The more dots of ink per inch the picture has, the more detail you will see when printed.->
+
+    <!-- Relative Size unit -->
+    <!-- em :- where the magnitude is multiplied with the size of latest divion {predecessor} -->
+    <!-- Default size of the body is 16px -->
+    <!-- Application of em in font size -->
+
+    <!-- <div class="par_rel_1">
+        Parent Division : 50px
+        <div class="ch_rel_1">
+            Child Division : 50*2=100px
+        </div>
+    </div>
+    <br>
+    <div class="par_rel_1">
+        Parent Division : 50px
+        <div class="ch_rel_2">
+            Child Division : 50*0.8=40px
+        </div>
+    </div> -->
+
+    <!-- Application of em in the padding -->
+
+    <!-- <div class="par_rel_1">
+        Parent padding
+        <div class="ch_rel_1">
+            Child Padding
+        </div>
+    </div> -->
+
+    <!-- rem :- depends on the root element which is by default 16px -->
+
+    <div class="par_rel_1">
+        Parent padding : 50px
+        <div class="ch_rel_1">
+            Child Padding : 5*f-size of root node = 80px
+        </div>
+    </div>
+
+    <!-- Homework :- How to make a Responsive Website -->
+    <!-- Answer :- -->
+
+    <!-- 
+        1. Setting the viewport :- Instructions regarding page's control and dimensions.
+        2. Responsive Image :- Scale nicely to fit browser size.
+        3. Using width and max-width :- Previous one helps in scaling up and down an image, but the later one will only scale doun, never scale,s up to maintain the integrity of the image.
+        4. Using diffrent images depending on the browser width.
+        5. Responsive text size using vw and vh.
+        6. Responsive media queries.
     
+    -->
+
+
 </body>
 </html>
