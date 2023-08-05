@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+.eren{
+    height: 500px;
+    /* float is used to allign the image parallel to another
+    content. */
+    float: left;
+}
+.eren_1{
+    height: 500px;
+    float: right;
+}
