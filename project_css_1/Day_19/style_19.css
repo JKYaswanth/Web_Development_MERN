@@ -1,15 +1,122 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+/* Without adding the float to both containers will lead to the overflow of the image from the container as shown in the image named as "container_overflow_problem"*/
+
+/* but when seperate floats are added to both containers the problem seems to be resolved */
+
+/* Image named as "container_overflow_resolved" */
+.container{
+    margin: 5px;
+    border: solid black 5px;
+    padding: 10px;
+    
+    float: left;
+}
+
+.container_2{
+    margin: 5px;
+    border: solid red 5px;
+    padding: 10px;
+    
+    float: right;
+}
+
+img{
+    margin: 10px;
 }
 
 .eren{
-    height: 500px;
+    height: 350px;
     /* float is used to allign the image parallel to another
     content. */
+    float: right;
+}
+.attack_titan{
+    height: 150px;
+    float: right;
+}
+.eren_2{
+    height: 350px;
+    /* float is used to allign the image parallel to another
+    content. */
+    float: right;
+}
+.attack_titan_2{
+    height: 150px;
+    clear: right;
+    float: right;
+}
+
+.heading_1{
+    text-align: center;
+    font-family: cursive;
+}
+.heading_2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.non_overflow{
+    border: solid 1px black;
+    margin: 20px;
+}
+
+.item{
+    font-size: 2em;
+    border: dotted red 1px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
     float: left;
 }
-.eren_1{
-    height: 500px;
-    float: right;
+
+
+.overflow{
+    border: solid 1px black;
+    margin: 20px;
+    overflow: auto;
+}
+
+.item_1{
+    font-size: 2em;
+    border: dotted red 1px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
+    float: left;
+    
+}
+
+.over_head{
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Without overflow the content will exceed the limit boundaries of the container */
+
+/* auto : just makes a window in which the complete is present and also provide a vertical scroll */
+
+/* hidden : Hides the content which is not present in the window.*/
+
+/* scroll : just like auto but also provides horizontal scroll */
+
+/* visible : :-| */
+
+
+.over{
+    height: 200px;
+    width: 300px;
+    border: solid blue 1px;
+    margin: 20px;
+    padding: 10px;
+    /* overflow: auto; */
+    /* overflow: hidden; */
+    overflow: scroll;
+    /* overflow: visible; */
 }
