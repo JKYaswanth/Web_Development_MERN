@@ -2,3 +2,136 @@
     margin: 0px;
     padding: 0px;
 }
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.box_1{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    margin: 10px;
+    border: 3px solid black;
+}
+/* Media Queries helps to apply diffrent CSS properties to the HTML rendering on diffrent sizes and shapes of the website. */
+
+/* Diffrent media Queries : 
+    1. min-width - when greater than these values the following CSS properties will be applied. */
+@media(min-width : 250px){
+    .box{
+        background-color: brown;
+    }
+}
+@media(min-width : 500px){
+    .box{
+        background-color: green;
+    }
+}
+@media(min-width : 1000px){
+    .box{
+        background-color: antiquewhite;
+    }
+}
+/* 2. max-width : when less than these values the following CSS properties will be applied.s */
+@media(max-width : 1000px){
+    .box_1{
+        background-color: yellow;
+    }
+}
+@media(max-width : 500px){
+    .box_1{
+        background-color: wheat;
+    }
+}
+@media(max-width : 250px){
+    .box_1{
+        background-color: chocolate;
+    }
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 75%;
+    border: 5px solid black;
+    display: flex;
+    margin: 40px;
+}
+.Box{
+    border: 2px solid black;
+    height: 50px;
+    width: 150px;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: burlywood;
+}
+/* CSS for the conversion of the CSS-flex of a container based on the changes of the screen size.  */
+
+@media(max-width : 400px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+/* Example 2 */
+
+.container_2{
+    background-color: antiquewhite;
+    height: 800px;
+    width: 75%;
+    border: 5px solid black;
+    display: flex;
+    margin: 40px;
+}
+
+.text_area{
+    background-color: aqua;
+    height: 500px;
+    width:60%;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    /* background-color: aqua; */
+    border: 2px solid black;
+    margin: 10px;
+    overflow: scroll;
+}
+.img{
+    margin: 10px;
+}
+
+/* Incoming media query */
+@media(max-width : 600px){
+    .container_2{
+        flex-direction: column;
+    }
+    .eren{
+        height: 250px;
+    }
+}
+
+/* Media Queries helps to manually control the responsiveness of a Website. */
