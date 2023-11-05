@@ -2,3 +2,66 @@
     margin: 0px;
     padding: 0px;
 }
+/* Shadows 2 types namely text and box shadow */
+.logo{
+    height: 200px;
+}
+
+:root{
+    --primary_colour: brown;
+    --dim:350px;
+}
+
+.container{
+    background-color: aqua;
+    height: 700px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.box{
+    /* If using a specific value too many times, and there is a need to change the specific value from the entire code....The Process will be quite cumbersome and not very efficient */
+
+    /* Hence Variables are Created which requires change only at their intialization to make changes wherever the variables are used. */
+
+    /* Initialization :- --var_name:value; */
+
+    /* Using :- var(var_name) */
+
+    /* To make the variables global add them in root */
+    /* :root{
+        --var_name:value;
+    } */
+
+    background-color: antiquewhite;
+    height: var(--dim);
+    width: var(--dim);
+    border: 2px solid var(--primary_colour);
+    margin: 5px;
+    padding: 5px;
+    /* Box Shadow Experimentation */
+    /* Simple Shadow */
+    /* box-shadow: 25px 20px brown; */
+
+    /* Using Blur Radius :- Determines how much the shadow blurs out {Non-Negatives not accepted} */
+    /* box-shadow: 25px 20px 40px brown; */
+
+    /* Using Spread Radius :- Determines how much the shadow spreads or the size of the shadow. */
+    /* box-shadow: 25px 20px 10px 20px brown; */
+
+    /* Using Inset :- This changes the direction of the shadow formation to inside the container. */
+    /* box-shadow: inset 25px 20px 50px 5px brown; */
+
+    /* Adding multiple shadows :- Seperate write the shadow constraints in accordance to their order, The seperation is identified by using a comma */
+
+    /* box-shadow: 10px 15px 10px 5px green,-10px -15px 10px 5px orangered,inset 10px 15px 10px 5px rgba(0,0,128,0.5),inset -10px -15px 10px 5px rgba(0,0,128,0.5); */
+
+}
+/* Text-shadow :- Just like the box shadow with all the constraints except the spread-radius. */
+#head{
+    /* text-shadow: 5px 5px 5px brown; */
+    /* Home-work :- Add multiple shadows to the text. */
+    text-shadow: 5px 5px 5px red,-5px -5px 5px blue;
+
+}
